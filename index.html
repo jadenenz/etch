@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+   display: grid;
+   /*flex-wrap: wrap;*/
+   grid-template-columns: repeat(16, 1fr);
+   grid-template-rows: repeat(16, 1fr);
+   background: lightgray;
+   width: 960px;
+   /*justify-items: stretch;*/
+}
+
+.gridSquare {
+  background: lightgreen;
+  height: 100%;
+  width: 100%;
+  min-width:50px;
+  min-height: 50px;
+  /*flex-basis: 6.25vw;
+  /*justify-self: center;*/
+  /*align-self: stretch;*/
+}
+
+    </style>
+</head>
+<body>
+    <script src="etch.js" defer></script>
+    <div id = "cont" class="container">
+       
+    </div>
+</body>
+</html>
