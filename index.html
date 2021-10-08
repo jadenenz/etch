@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-a-sketch</title>
     <style>
     
+body {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+
+}
+
+button {
+    scale: 1.5;
+    margin: 20px;
+}
     
 .container {
    display: grid;
@@ -27,8 +46,11 @@
 </head>
 <body>
     <script src="etch.js" defer></script>
-    <button id = "button">Reset</button>
-    <div id = "cont" class="container">
+    <main>
+        <h1 class='title'>Etch-a-sketch</h1>
+        <button id = "button">Reset</button>
+        <div id = "cont" class="container">
+    </main>
        
     </div>
 </body>
