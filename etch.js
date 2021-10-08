@@ -37,7 +37,7 @@ function reset() {
       div.setAttribute('id', 'divvy')
       container.appendChild(div);
       div.addEventListener('mouseover', e => {
-      div.style.background = 'red';
+      div.style.background = 'purple';
     })
   }
 }
